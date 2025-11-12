@@ -262,7 +262,7 @@ const COUNTRY_CODES = {
 
   55:"Brazil 🇧🇷",1:"USA 🇺🇸",44:"UK 🇬🇧",33:"France 🇫🇷",49:"Germany 🇩🇪",977:"Nepal 🇳🇵",
 
-  7:"Russia 🇷🇺",92:"Pakistan 🇵🇰",234:"Nigeria 🇳🇬",254:"Kenya 🇰🇪",213:"Algeria 🇩🇿",249:"Sudan 🇸🇩",20:"Egypt 🇪🇬",972:"Isriwil 💩"
+  7:"Russia 🇷🇺",92:"Pakistan 🇵🇰",234:"Nigeria 🇳🇬",254:"Kenya 🇰🇪",213:"Algeria 🇩🇿",249:"Sudan 🇸🇩",20:"Egypt 🇪🇬",972:"Isriwil 🇮🇱💩"
 
 };
 
