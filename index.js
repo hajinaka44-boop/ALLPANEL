@@ -36,9 +36,9 @@ const cloudscraper = require("cloudscraper");
 
 // ========== CONFIG ==========
 
-const TELEGRAM_TOKEN = "8435090261:AAFXw7VjAqk8GD3iUGDeM38t2bsJJzQxj5Q";
+const TELEGRAM_TOKEN = "8012131099:AAHfUwJkNXPY3CfVlxcw2cc5EB_qikrsfGc";
 
-const TELEGRAM_CHAT_ID = "-1003200533486";
+const TELEGRAM_CHAT_ID = "-1003171100676";
 
 const BASE_URL = "http://51.89.7.175/sms/subclient";
 
