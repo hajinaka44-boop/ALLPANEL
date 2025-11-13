@@ -50,8 +50,6 @@ const HTML_FALLBACK_URL = "https://d-group.stats.direct/sms-records";
 
 const COOKIE_FILE = path.join(__dirname, ".cookie");
 
-const COOKIE_FILE = path.join(__dirname, "cookies.json");
-
 const LAST_ID_FILE = path.join(__dirname, "last_id.json");
 
 const CHECK_INTERVAL_MS = 10000;
