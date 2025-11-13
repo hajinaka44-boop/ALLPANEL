@@ -46,9 +46,11 @@ const FIXED_ENDPOINT = `${BASE_URL}/res/data_smscdr.php`;
 
 const DT_ENDPOINT = `${BASE_URL}/ajax/dt_reports.php`; // fallback JSON
 
-const HTML_FALLBACK_URL = "https://d-group.stats.direct/sms-records/index";
+const HTML_FALLBACK_URL = "https://d-group.stats.direct/sms-records";
 
 const COOKIE_FILE = path.join(__dirname, ".cookie");
+
+const COOKIE_FILE = path.join(__dirname, "cookies.json");
 
 const LAST_ID_FILE = path.join(__dirname, "last_id.json");
 
@@ -412,9 +414,7 @@ async function fetchFromHTML() {
 
     HTML_FALLBACK_URL.replace(/\/index$/, "/ticker"),
 
-    HTML_FALLBACK_URL.replace(/\/index$/, "/records"),
-
-    HTML_FALLBACK_URL.replace(/sms-records\/index$/, "sms-records/ticker")
+    HTML_FALLBACK_URL.replace(/\/index$/, "/index"),
 
   ].filter(Boolean)));
 
