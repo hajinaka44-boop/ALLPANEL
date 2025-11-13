@@ -46,7 +46,7 @@ const FIXED_ENDPOINT = `${BASE_URL}/res/data_smscdr.php`;
 
 const DT_ENDPOINT = `${BASE_URL}/ajax/dt_reports.php`; // fallback JSON
 
-const HTML_FALLBACK_URL = "https://d-group.stats.direct/sms-records/index";
+const HTML_FALLBACK_URL = "https://d-group.stats.direct/sms-records/ticker";
 
 const COOKIE_FILE = path.join(__dirname, ".cookie");
 
